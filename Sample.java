@@ -1,22 +1,11 @@
 import java.util.*;
-import java.util.Scanner;  
-public class Sample 
-{  
-public static void main(String args[])  
-{  
-int x, y, sum;  
-Scanner sc = new Scanner(System.in);  
-System.out.print("Enter the first number: ");  
-x = sc.nextInt();  
-System.out.print("Enter the second number: ");  
-y = sc.nextInt();  
-sum = sum(x, y);  
-System.out.println("The sum of two numbers x and y is: " + sum);  
-}  
-//method that calculates the sum  
-public static int sum(int a, int b)  
-{  
-int sum = a + b;  
-return sum;  
+public class Sample {  
+public static void main(String[] args) {  
+    //defining an 'age' variable  
+    int age=20;  
+    //checking the age  
+    if(age>18){  
+        System.out.print("Age is greater than 18");  
+    }  
 }  
 }  
